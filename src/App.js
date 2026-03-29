@@ -30,10 +30,12 @@ function App() {
     <div className="App">
       <h1>Ежедневник лекарств</h1>
       {medicines.map(med => (
-        <div style={{
-          width: '0 auto',
-          margin: '0 auto'
-        }} key={med.id}>
+        <div style={{ 
+  display: 'flex', 
+  justifyContent: 'center',  // центрирует по горизонтали
+  alignItems: 'center',      // центрирует по вертикали
+  height: '100vh'            // занимает всю высоту экрана
+}} key={med.id}>
         <span style={{
           textDecoration: med.taken ? 'line-through' : 'none',
           color: med.taken ? 'green' : 'white'
