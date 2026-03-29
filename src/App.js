@@ -50,7 +50,7 @@ function App() {
   display: 'flex', 
   justifyContent: 'center',  // центрирует по горизонтали
   alignItems: 'center',      // центрирует по вертикали
-}} onClick={onClose}><span>color: 'blue'</span>Закрыть</button>
+}} onClick={onClose}><span> style = {{color: 'blue'}}Закрыть</span></button>
     </div>
   );
 }
