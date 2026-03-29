@@ -28,13 +28,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Ежедневник лекарств</h1>
+      <h1 style={{ textAlign: 'center' }}>Ежедневник лекарств</h1>
       {medicines.map(med => (
         <div style={{ 
   display: 'flex', 
   justifyContent: 'center',  // центрирует по горизонтали
   alignItems: 'center',      // центрирует по вертикали
-  height: '100vh'            // занимает всю высоту экрана
 }} key={med.id}>
         <span style={{
           textDecoration: med.taken ? 'line-through' : 'none',
