@@ -46,7 +46,11 @@ function App() {
         </button>
         </div>
       ))}
-      <button onClick={onClose}>Закрыть</button>
+      <button style={{ 
+  display: 'flex', 
+  justifyContent: 'center',  // центрирует по горизонтали
+  alignItems: 'center',      // центрирует по вертикали
+}} onClick={onClose}><span>color: 'blue'</span>Закрыть</button>
     </div>
   );
 }
