@@ -6,7 +6,7 @@ const tg = window.Telegram.WebApp;
 
 function App() {
 
-  const [medicines, medicineState] = useState([
+  const [medicines, setMedicines] = useState([
     {id: 1, name: "Аспирин", taken: false},
     {id: 2, name: "Витамин Б", taken: false},
     {id: 3, name: "Витамин С", taken: false}
