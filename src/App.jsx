@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import Header from "./components/Header"
+import Header from "./components/Header/Header"
 import Info from "./components/Info"
 import VozmoznoctiBota from "./components/VozmoznoctiBota"
 import InFuture from "./components/InFuture"
